@@ -1,0 +1,186 @@
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.navbar-light .navbar-toggler {
+    border-color:rgb(255, 255, 255) transparent;
+}
+
+.navbar-custom {
+    background-color: #fff !important;
+    color: #000 !important;
+    letter-spacing: 4px;
+}
+
+
+.line1, .line2, .line3{
+    width:23px;
+    height:3px;
+    margin:5px;
+    transition: all .4s;
+  }
+  
+  .change .line1{
+    transform: rotate(-45deg) translate(-5px,6px)
+  }
+  
+  .change .line2{
+    opacity: 0;
+  }
+  
+  .change .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 400;
+    font-size: 36px !important;
+    color: gray;
+    letter-spacing: 5px;
+    font-family: "Playfair Display";
+}
+
+.sectionAbout,
+.sectionMenu {
+    padding: 4rem;
+    background-color: #fff !important;
+}
+
+.headerStyle,
+.subHeaderStyle,
+.headerStyle2 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.imageFormat {
+    opacity: 0.75;
+    border-radius: 4px;
+}
+
+.col-md-6 {
+    padding-left: 75px;
+}
+
+.spanStyling {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.aboutText {
+    font-size: 18px !important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Times New Roman", Georgia, Serif;
+    text-align: left;
+}
+
+#aboutTextStyle {
+    color: #757575;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    width: 65%;
+    text-align: center;
+    margin-right: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 16px
+}
+
+.menuDescription {
+    padding-top: 4px;
+    color: #757575 !important;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+#contactHeader{
+    text-align: left;
+}
+
+.addressStyle{
+    color: #607d8b!important;
+}
+
+.contactStyle{
+    margin-top:1rem;
+}
+
+.btnStyling{
+    color: #000!important;
+    background-color: #ccc!important;
+    font-family: "Playfair Display";
+    margin:auto;
+    letter-spacing: 1px;
+}
+
+#nameInput, #contactTextArea, #contactSelect{
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+/* Mobile Styles */
+@media screen and (max-width:680px) {
+    .imageFormat {
+        display: none;
+    }
+
+    .alignList {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .col-md-6 {
+        padding-left: 0;
+    }
+
+    #contactMedia{
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .imageFormat {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
